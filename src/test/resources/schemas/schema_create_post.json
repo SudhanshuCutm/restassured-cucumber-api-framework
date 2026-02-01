@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Create Post Schema",
+  "description": "Schema for validating POST /posts response",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Newly created post ID"
+    },
+    "title": {
+      "type": "string",
+      "description": "Post title"
+    },
+    "body": {
+      "type": "string",
+      "description": "Post content"
+    },
+    "userId": {
+      "type": "integer",
+      "description": "User ID who created the post"
+    }
+  },
+  "required": ["id", "title", "body", "userId"],
+  "additionalProperties": false
+}

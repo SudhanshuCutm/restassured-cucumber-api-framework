@@ -1,0 +1,5 @@
+{
+  "title": "API Automation Demo",
+  "body": "This is a demo post created via REST Assured automation framework for client demonstration.",
+  "userId": 1
+}
