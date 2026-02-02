@@ -31,3 +31,6 @@ Thumbs.db
 # allure-report/
 # cucumber-reports/
 # surefire-reports/
+
+# Documentation folder
+document/
